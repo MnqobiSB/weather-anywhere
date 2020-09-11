@@ -1,0 +1,26 @@
+{
+	"name": "Weather Anywhere",
+	"short_name": "WeatherAnywhere",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#e7e7e7",
+	"theme_color": "#00cec9",
+	"orientation": "portrait-primary",
+	"icons": [
+		{
+			"src": "./img/weather-64x64.png",
+			"type": "image/png",
+			"sizes": "64x64"
+		},
+		{
+			"src": "./img/weather-128x128.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "./img/weather-256x256.png",
+			"type": "image/png",
+			"sizes": "256x256"
+		}
+	]
+}

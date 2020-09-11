@@ -1,0 +1,42 @@
+[debug] [2020-09-11T07:45:51.420Z] ----------------------------------------------------------------------
+[debug] [2020-09-11T07:45:51.428Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Family\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-11T07:45:51.430Z] CLI Version:   8.10.0
+[debug] [2020-09-11T07:45:51.430Z] Platform:      win32
+[debug] [2020-09-11T07:45:51.430Z] Node Version:  v11.0.0
+[debug] [2020-09-11T07:45:51.473Z] Time:          Fri Sep 11 2020 09:45:51 GMT+0200 (South Africa Standard Time)
+[debug] [2020-09-11T07:45:51.474Z] ----------------------------------------------------------------------
+[debug] [2020-09-11T07:45:51.474Z] 
+[debug] [2020-09-11T07:45:51.592Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-11T07:45:51.594Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Family\Documents\Mnqobi Folder\mnqobi_web_design\2020GADS\PROJECTS\2-PRACTICE-PROJECT(PHASE1)\0-FINAL-WEATHER-PROJECT\WeatherApp-JavaScritpt
+
+[debug] [2020-09-11T07:48:42.584Z] ----------------------------------------------------------------------
+[debug] [2020-09-11T07:48:42.595Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Family\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-09-11T07:48:42.598Z] CLI Version:   8.10.0
+[debug] [2020-09-11T07:48:42.599Z] Platform:      win32
+[debug] [2020-09-11T07:48:42.599Z] Node Version:  v11.0.0
+[debug] [2020-09-11T07:48:42.604Z] Time:          Fri Sep 11 2020 09:48:42 GMT+0200 (South Africa Standard Time)
+[debug] [2020-09-11T07:48:42.604Z] ----------------------------------------------------------------------
+[debug] [2020-09-11T07:48:42.604Z] 
+[debug] [2020-09-11T07:48:42.636Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-11T07:48:42.638Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Family\Documents\Mnqobi Folder\mnqobi_web_design\2020GADS\PROJECTS\2-PRACTICE-PROJECT(PHASE1)\0-FINAL-WEATHER-PROJECT\WeatherApp-JavaScritpt
+

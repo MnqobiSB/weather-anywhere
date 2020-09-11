@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Weather Anywhere</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+	<meta name="description" content="Current weather app with current location and search location" />
+	<meta name="theme-color" content="#00cec9" />
+
+	<link rel="icon" type="image/png" href="./img/weather-128x128.png" />
+
+	<link rel='stylesheet' href='css/style.css' />
+	<link rel='stylesheet' href='css/media-query.css' />
+	<link rel="manifest" href="/manifest.json">
+
+	<script src="https://kit.fontawesome.com/4d0ba224e6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<noscript>You need to enable JavaScript to run this app.</noscript>
+	<!--[if IE]>
+		<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<div class="container">
+
+		<header class="app-title">
+			<a class="skip-link" href="#main">Skip to main</a>
+			<h1><i class="fas fa-cloud-sun-rain accent"></i> Weather Anywhere</h1>
+
+			<div class="input" role="search">
+				<label class="visuallyHidden" for="query">Search</label>
+				<input type="search" id="query" class="search-value" value="New York" placeholder="City">
+				<input type="submit" class="search-button" value="Submit">
+			</div>
+		</header>
+
+		<div class="notification"></div>
+
+		<main id="main" class="weather-container" tabindex="-1">
+			<h2 class="city-name">City</h2>
+
+			<div class="temp-value">
+				<p title="Click on temperature to switch unit">- &deg;<span class="celcius">C</span></p>
+			</div>
+
+			<div class="weather-icon">
+				<img src="icons/unknown.png" alt="weather icon" title="weather icon" loading="lazy">
+			</div>
+
+			<div class="temp-desc">
+				<p> - </p>
+			</div>
+		</main>
+
+		<footer>
+			<button class="location-button"><i class="far fa-compass"></i> Get weather by current location</button>
+		</footer>
+
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap');
+
+html {
+  	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  	box-sizing: inherit;
+}
+
+html, body {
+  	margin: 0;
+  	font-family: 'Raleway', sans-serif;
+  	font-size: 1rem;
+  	font-weight: 500;
+  	line-height: 1.5;
+  	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: darkgrey;
+	background-image: url(https://images.unsplash.com/photo-1561583534-09e822ba83ba?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExODA5M30);
+	background-blend-mode: multiply;
+	background-size: cover;
+	color: var(--clr-light);
+}
+
+input[type="search"] {
+	height: 40px;
+	width: 300px;
+	background: #e7e7e7;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+input[type="submit"] {
+	height: 40px;
+	width: 100px;
+	background: #00cec9;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 3px;
+}
+
+button {
+	height: 40px;
+	width: 400px;
+	background: #00cec9;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 1.2rem;
+	border: none;
+	border-radius: 3px;
+	margin-top: 1rem;
+}
+
+.accent {
+	color: #00cec9;
+}
+
+#main:focus {
+	outline: 0;
+}
+
+.container {
+	text-align: center;
+	max-width: 600px;
+	height: 90%;
+	background-color: #FFF;
+	border-radius: 3px;
+	display: block;
+	margin: 2rem auto;
+	padding: 1rem;
+	opacity: .8;
+}
+
+.notification {
+	color: #d63031;
+}
+
+.temp-value {
+	font-size: 2.5rem;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.temp-value p {
+	margin: 10px 0;
+}
+
+.celcius {
+	font-size: 1.5rem;
+}
+
+.weather-icon img {
+	width: 100px;
+}
+
+.temp-desc p {
+	font-size: 1.2rem;
+}
+
+
+.skip-link {
+  	color: #fff;
+  	left: -100%;
+  	position: absolute;
+}
+
+.skip-link:focus {
+  	left: 0;
+  	top: 0;
+}
+
+.visuallyHidden {
+  	border: 0;
+  	clip: rect(0, 0, 0, 0);
+  	height: 1px;
+  	margin: -1px;
+  	overflow: hidden;
+  	padding: 0;
+  	position: absolute;
+  	white-space: nowrap;
+  	width: 1px;
+}

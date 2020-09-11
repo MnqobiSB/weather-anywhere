@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+	html, body {
+		font-size: .9rem;
+  		font-weight: 400;
+	}
+ 	.container {
+    	max-width: 300px;
+  	}
+  	input[type="search"] {
+  		width: 100%;
+  		margin-bottom: 1rem;
+  		font-size: 1rem;
+  	}
+  	input[type="submit"], button {
+  		width: 100%;
+  		font-size: 1rem;
+  	}
+  	.weather-icon img {
+		width: 80px;
+	}
+}
+
+@media (min-width: 576px) {
+	.container {
+    	max-width: 540px;
+  	}
+}
